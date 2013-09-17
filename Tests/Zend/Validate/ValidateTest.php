@@ -58,10 +58,6 @@ class ValidateTest extends \Tests\TestCase
         $this->assertTrue(class_exists('\Zend_Validate_File_Size') || interface_exists('\Zend_Validate_File_Size'));
         $this->assertTrue(class_exists('\Zend_Validate_File_Upload') || interface_exists('\Zend_Validate_File_Upload'));
         $this->assertTrue(class_exists('\Zend_Validate_File_WordCount') || interface_exists('\Zend_Validate_File_WordCount'));
-        $this->assertTrue(class_exists('\Zend_Validate_Hostname_Biz') || interface_exists('\Zend_Validate_Hostname_Biz'));
-        $this->assertTrue(class_exists('\Zend_Validate_Hostname_Cn') || interface_exists('\Zend_Validate_Hostname_Cn'));
-        $this->assertTrue(class_exists('\Zend_Validate_Hostname_Com') || interface_exists('\Zend_Validate_Hostname_Com'));
-        $this->assertTrue(class_exists('\Zend_Validate_Hostname_Jp') || interface_exists('\Zend_Validate_Hostname_Jp'));
         $this->assertTrue(class_exists('\Zend_Validate_Ldap_Dn') || interface_exists('\Zend_Validate_Ldap_Dn'));
         $this->assertTrue(class_exists('\Zend_Validate_Sitemap_Changefreq') || interface_exists('\Zend_Validate_Sitemap_Changefreq'));
         $this->assertTrue(class_exists('\Zend_Validate_Sitemap_Lastmod') || interface_exists('\Zend_Validate_Sitemap_Lastmod'));
